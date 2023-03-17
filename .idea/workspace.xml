@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0ad93635-b047-4a74-8943-91c41fd37b2c" name="Changes" comment="17.03 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/nikolski/studyQA/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/nikolski/studyQA/SearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/nikolski/studyQA/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/nikolski/studyQA/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +32,11 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
 }]]></component>
   <component name="RunManager">
@@ -75,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679084773576</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="17.03 1">
+      <created>1679087476377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679087476377</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
