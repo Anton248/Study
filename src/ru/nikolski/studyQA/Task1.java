@@ -1,5 +1,5 @@
 package ru.nikolski.studyQA;
-import static ru.nikolski.studyQA.SearchTests.successfulSearchTest;
+
 import static ru.nikolski.studyQA.TestingStaticMethod.StaticMethod;
 
 /* 
@@ -12,7 +12,7 @@ public class Task1 {
 
        int num = 0;
         num = num++;
-        successfulSearchTest();
+        new SearchTests().successfulSearchTest();
         StaticMethod();
 
         System.out.println(num);
