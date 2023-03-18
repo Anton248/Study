@@ -1,6 +1,7 @@
 package ru.nikolski.studyQA;
 
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.Test;
 //import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,7 +19,7 @@ public class SearchTests {
         Configuration.browserCapabilities.setCapability(ChromeOptions.CAPABILITY, options);
         //WebDriver driver = new ChromeDriver(options);
         //driver.get("https://www.google.com");
-        open("https://www.google.com/");
+        Selenide.open("https://www.google.com/");
         $("[name=q]").setValue("selenide").pressEnter();
         $("[id=search]").shouldHave(text("https://selenide.org"));
     }
